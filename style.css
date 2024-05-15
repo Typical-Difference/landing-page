@@ -1,0 +1,28 @@
+.flex-container{
+    display: flex;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.section-two{
+    background-color: #1f2937;
+}
+
+.section-two > h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: extra-bold;
+    margin-top: -40px;
+}
+
+.nav-bar{
+    color: white;
+}
+
+.h2{
+    size: 24px;
+}
