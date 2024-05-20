@@ -23,45 +23,127 @@
 #hero{
     color: #f9faf8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     flex : 1;
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
 }
 
 #hero-sec{
+    text-decoration: none;
     font-size: 18px;
     color:#e5e7eb;
     flex : 1;
 }
 
-.s2flex1{
+#hero-button{
+    align-self: flex-start;
+}
+
+.s2flex1{.quote-container {
+    background-color: #E5E7EB;
+    padding: 100px 150px 50px 150px;
+}
+
+.actual-quote {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.source {
     display: flex;
+    justify-content: right;   
+    font-weight: bold;
+}
+
+.action-message-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 200px 100px 200px;
+    background-color: #3882F6;
+    padding: 75px 100px 75px 100px;
+    border-radius: 10px;
+}
+
+.call-to-action-button {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.call-to-action {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.prompt {
+    font-size: 16px;
+    color: white;
+}
     flex-direction: column;
     align-content: flex-start;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: auto;
 }
 
 .s2flex2{
     display: flex;
+    padding: 20px;
 }
 
 #s2img{
-    max-width: 360px;
+    width: 400px;
+    max-width: 100%;
+    height: auto;
 }
 
 .reviews{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px;
-    box-sizing: border-box;
-    
+    padding: none;
+    box-sizing: border-box;   
+}
+
+.reviews-images{
+    margin: 10px;
+    flex: 1 1 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 4px solid #3882f6 ;
+    margin: 10px
+}
+
+.caption{
+    width: 100%;
+    max-width: 200px;
+    max-height 200px;
+    border-radius: 15px;
+    text-align: center;
 }
 
 button{
+    size: 30px;
     background-color: #3882f6;
     color: white;
+    border-radius: 5px;
 }
 
 a {
@@ -73,5 +155,48 @@ a {
     size: 24px;
 }
 
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 100px 150px 50px 150px;
+}
+
+.actual-quote {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.source {
+    display: flex;
+    justify-content: right;   
+    font-weight: bold;
+}
+
+.message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 200px 100px 200px;
+    background-color: #3882F6;
+    padding: 75px 100px 75px 100px;
+    border-radius: 10px;
+}
+
+.button2 {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.call-to-action {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.prompt {
+    font-size: 16px;
+    color: white;
+}
+
 *{
+    font-family: "Roboto", sans-serif;
 }
